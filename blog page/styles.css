@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:ital,wght@1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+text-align: center;
+color: rgb(223, 37, 173);
+line-height: 1.5;
+letter-spacing: 1px;
+}
+
+
+
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #080909;
+    color: #fff;
+    padding: 15px 70px;
+}
+
+.logo h1 {
+    font-size: 17px;
+}
+
+.links {
+width: 75%;
+display: flex;
+justify-content: flex-end;
+}
+
+.links a {
+font-size: 16px;
+color: #fff;
+text-decoration: none;
+margin-right: 15px;
+padding: 5px 10px;
+transition: 0.3s;
+}
+
+.buttons button {
+font-size: 16px;
+padding: 8px 8px;
+margin-left: 15px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.buttons .login {
+background-color: #44668c;
+color: #fff;
+}
+
+.buttons .signup {
+    background-color: rgb(154, 29, 79);
+    color: #fff;
+    }
+
+.wrapper {
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('../images/computer.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.testimonial {
+padding: 30px 100px;
+}
+
+article h1 {
+font-size: 50px;
+font-weight: 800;
+text-transform: uppercase;
+letter-spacing: 1.5;
+}
+article h1:after {
+    height: 5px;
+    width: 225px;
+    background-color: #fff;
+    display: block;
+    margin: auto;
+}
+article img {
+    height: 200px;
+    width: 200px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+blockquote {
+font-family: sans-serif;
+font-size: 20px;
+margin-top: 30px;
+}
+article h5 {
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 30px;
+    letter-spacing: 1.5;
+}
+article p {
+font-size: 17px;
+}
+footer-container {
+    background-color:#080909;
+    width: 100%;
+    height: 50%;
+    padding: 20px;
+    color: white;
+}
+
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.social-icons a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.social-icons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.social-icons a:hover i{
+    transition: 0.5s;
+    color: white;
+}
+
+.footer-bottom {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: white;
+}
+
+
+.designer {
+    opacity: 0.7;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+@media screen and (max-width: 768px){
+    .content{
+        flex-direction: column;
+
+    }
+    .footer-bottom {
+flex-direction: column;
+    }
+}
